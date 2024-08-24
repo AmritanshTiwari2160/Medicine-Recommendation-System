@@ -19,20 +19,16 @@ Welcome to the **Medicine Recommendation System** project! This innovative syste
 
 ## 📂 Project Structure
 
-```bash
-medicine-recommendation-system/
-├── datasets/
-│   ├── Trainingcsv/Training.csv          # Training data with symptoms and disease labels
-│   ├── symtoms_df.csv                    # Symptoms and their encoded values
-│   ├── precautions_df.csv                # Precautions related to each disease
-│   ├── workout_df.csv                    # Workouts recommended for each disease
-│   ├── description.csv                   # Disease descriptions
-│   ├── medications.csv                   # Medication recommendations
-│   └── diets.csv                         # Diet plans for each disease
-├── models/
-│   └── svc.pkl                            # Serialized trained SVC model
-├── main.py                               # Main script for training models and making predictions
-└── README.md                             # Project documentation
+- **Medical Recommendation.py**: The main Python script that handles the disease prediction and recommendation system.
+- **README.md**: This file, containing an overview and instructions for the project.
+- **Training.csv**: The dataset used for training the machine learning models.
+- **description.csv**: Contains descriptions of the diseases predicted by the system.
+- **diets.csv**: A dataset containing recommended diets for various diseases.
+- **medications.csv**: A dataset with medication recommendations for each disease.
+- **precautions_df.csv**: Data on precautions that should be taken for each disease.
+- **svc.pkl**: The serialized model file used for making predictions.
+- **symptoms_df.csv**: Contains data on symptoms associated with different diseases.
+- **workout_df.csv**: A dataset that provides workout recommendations based on the predicted disease.
 
 ## 🧠 How It Works
 
