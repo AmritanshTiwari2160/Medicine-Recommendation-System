@@ -10,7 +10,7 @@ Welcome to the **Medicine Recommendation System** project! This innovative syste
 - **Efficient Model Training**: Trained on a robust dataset, the models are optimized for high accuracy and reliability.
 - **Scalable and Extendable**: Easy to extend with additional symptoms, diseases, and recommendation types.
 
-## 🛠️ Technologies Used
+## ⚙️ Technologies Used
 
 - **Programming Language**: Python 🐍
 - **Libraries**: Scikit-learn, Pandas, NumPy, Pickle
